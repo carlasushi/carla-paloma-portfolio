@@ -1,7 +1,8 @@
+// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import ParallaxSection from "@/components/ParallaxSection";
 
 export const metadata: Metadata = {
   title: "Carla Paloma - Contemporary Ceramics Artist",
@@ -9,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Carla Paloma - Contemporary Ceramics Artist",
     description: "Explore the unique ceramic art of Carla Paloma, featuring contemporary designs, intricate textures, and bold colors.",
-    url: "https://your-portfolio-url.com", // Replace with your actual portfolio URL
+    url: "https://your-portfolio-url.com",
     siteName: "Carla Paloma Ceramics",
     images: [
       {
-        url: "/profile.jpg", // Ensure this image is in your public folder
+        url: "/profile.jpg",
         width: 800,
         height: 600,
         alt: "Carla Paloma Profile Image",
@@ -39,7 +40,13 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-mono">{children}</body>
+      <body className="font-mono">
+        <ParallaxSection>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {children}
+          </div>
+        </ParallaxSection>
+      </body>
     </html>
   );
 }

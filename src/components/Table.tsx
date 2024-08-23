@@ -27,7 +27,7 @@ const Table: React.FC = () => {
 
   return (
     <div className="overflow-x-auto">
-      <div className="bg-white border border-gray-300 p-4 rounded-lg">
+      <div className="p-4">
         {/* PAST PROJECTS Section */}
         <div className="border-b font-bold py-2">
           <h2>PAST PROJECTS</h2>
@@ -52,7 +52,7 @@ const Table: React.FC = () => {
             <iframe
               src="https://n3-art-lab.com/en/"
               width="100%"
-              height="400"
+              height="800" // Increase height for better visibility
               title="N3 ART LAB"
               className="border border-gray-300 rounded-lg"
             />
@@ -78,7 +78,7 @@ const Table: React.FC = () => {
             <iframe
               src="http://www.vardaartistsresidency.to/"
               width="100%"
-              height="400"
+              height="800" // Increase height for better visibility
               title="Varda Artists Residency"
               className="border border-gray-300 rounded-lg"
             />
@@ -104,7 +104,7 @@ const Table: React.FC = () => {
             <iframe
               src="https://www.cosmicorder.net/"
               width="100%"
-              height="400"
+              height="800" // Increase height for better visibility
               title="Cosmic Order Ceramics"
               className="border border-gray-300 rounded-lg"
             />
@@ -135,7 +135,7 @@ const Table: React.FC = () => {
             <iframe
               src="https://www.panstudio.to/"
               width="100%"
-              height="400"
+              height="800" // Increase height for better visibility
               title="Pan Studio Kauai"
               className="border border-gray-300 rounded-lg"
             />

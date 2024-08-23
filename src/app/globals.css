@@ -1,14 +1,70 @@
-/* Add this to your globals.css */
+/* src/app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --color-red: #E36135; /* Primary color */
-  --color-white: #FFFFFF; /* Background color */
+  --color-red: #333; /* Primary color */
+  --color-white:#fffff; /* Background color */
 }
 
 body {
   color: var(--color-red);
   background-color: var(--color-white);
+  font-size: 1rem; /* Set base font size to 16px */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Adjust margins for sections */
+.bio, .table, .footer {
+  margin-bottom: 20px; /* Adjust spacing between sections */
+}
+
+/* Optional: Adjust iframe sizes for better responsiveness */
+iframe {
+  width: 100%;
+  min-height: 600px; /* Set a minimum height */
+  height: auto; /* Allow the height to adjust if needed */
+}
+
+/* src/styles/globals.css or a specific CSS file */
+.image-hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-hover-effect:hover {
+  transform: scale(1.05); /* Scale up the image */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+
+/* src/styles/globals.css or a specific CSS file */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position above the button */
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
