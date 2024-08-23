@@ -1,12 +1,12 @@
-// src/components/Certifications.tsx
+// src/components/Education.tsx
 "use client";
 
 import React from 'react';
 
-const Certifications: React.FC = () => {
+const Education: React.FC = () => {
   return (
     <div className="bg-white border border-gray-300 p-4 rounded-lg mb-4">
-      <h2 className="font-bold text-xl mb-2">Certifications</h2>
+      <h2 className="font-bold text-xl mb-2">Education</h2>
       <ul className="list-disc list-inside">
         <li>Full Stack Software Development Bootcamp, Le Wagon, Denmark (Oct/Dec 2019)</li>
         <li>BSc Post-graduate Diploma, Psychology, Victoria University of Wellington, New Zealand (2014)</li>
@@ -17,4 +17,4 @@ const Certifications: React.FC = () => {
   );
 };
 
-export default Certifications;
+export default Education;

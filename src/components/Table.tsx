@@ -29,15 +29,15 @@ const Table: React.FC = () => {
     <div className="overflow-x-auto">
       <div className="p-4">
         {/* PAST PROJECTS Section */}
-        <div className="border-b font-bold py-2">
+        <div className="border-b-2 border-gray-400 font-bold py-2">
           <h2>PAST PROJECTS</h2>
         </div>
 
         {/* N3 ART LAB Entry */}
         <div className="py-2 border-b">
-          N3 ART LAB, Contemporary Art Gallery, Yamaguchi, Japan.
+          <span className="font-bold">N3 ART LAB, Contemporary Art Gallery, Yamaguchi, Japan.</span>
           <br />
-          <span className="font-semibold">Curator and Program Manager | 2011 - 2013</span>
+          Curator and Program Manager | 2011 - 2013
           <br />
           <button
             onClick={toggleEmbed1}
@@ -52,7 +52,7 @@ const Table: React.FC = () => {
             <iframe
               src="https://n3-art-lab.com/en/"
               width="100%"
-              height="800" // Increase height for better visibility
+              height="800"
               title="N3 ART LAB"
               className="border border-gray-300 rounded-lg"
             />
@@ -61,9 +61,9 @@ const Table: React.FC = () => {
 
         {/* Varda Artists Residency Entry */}
         <div className="py-2 border-b">
-          Varda Artists Residency, Sausalito, California.
+          <span className="font-bold">Varda Artists Residency, Sausalito, California.</span>
           <br />
-          <span className="font-semibold">Founder and Program Manager | 2013 - 2021</span>
+          Founder and Program Manager | 2013 - 2021
           <br />
           <button
             onClick={toggleEmbed2}
@@ -78,7 +78,7 @@ const Table: React.FC = () => {
             <iframe
               src="http://www.vardaartistsresidency.to/"
               width="100%"
-              height="800" // Increase height for better visibility
+              height="800"
               title="Varda Artists Residency"
               className="border border-gray-300 rounded-lg"
             />
@@ -86,10 +86,10 @@ const Table: React.FC = () => {
         )}
 
         {/* Cosmic Order Ceramics Entry */}
-        <div className="py-2 border-b">
-          Cosmic Order Ceramics, Sausalito, California.
+        <div className="py-2 border-b" id="cosmic-order-ceramics">
+          <span className="font-bold">Cosmic Order Ceramics, Sausalito, California.</span>
           <br />
-          <span className="font-semibold">Founder | 2020 - 2024</span>
+          Founder | 2020 - 2024
           <br />
           <button
             onClick={toggleEmbed3}
@@ -104,7 +104,7 @@ const Table: React.FC = () => {
             <iframe
               src="https://www.cosmicorder.net/"
               width="100%"
-              height="800" // Increase height for better visibility
+              height="800"
               title="Cosmic Order Ceramics"
               className="border border-gray-300 rounded-lg"
             />
@@ -112,15 +112,15 @@ const Table: React.FC = () => {
         )}
 
         {/* PRESENT PROJECTS Section */}
-        <div className="border-b font-bold py-2 mt-4">
+        <div className="border-b-2 border-yellow-400 font-bold py-2 mt-4">
           <h2>PRESENT PROJECTS</h2>
         </div>
 
         {/* Pan Studio Kauai Entry */}
-        <div className="py-2 border-b">
-          Pan Studio Kauai.
+        <div className="py-2 border-b" id="pan-studio">
+          <span className="font-bold">PAN STUDIO KAUAI</span>
           <br />
-          <span className="font-semibold">Founder | Ongoing</span>
+          Founder | Ongoing
           <br />
           <button
             onClick={toggleEmbed4}
@@ -135,7 +135,7 @@ const Table: React.FC = () => {
             <iframe
               src="https://www.panstudio.to/"
               width="100%"
-              height="800" // Increase height for better visibility
+              height="800"
               title="Pan Studio Kauai"
               className="border border-gray-300 rounded-lg"
             />
@@ -144,10 +144,10 @@ const Table: React.FC = () => {
 
         {/* Lamp Design Entry */}
         <div className="py-2 border-b">
-          Lamp Designs Experimentation:
-          Carla is actively refining her lamp designs, modeling the bodies in Blender. After completing the digital designs, she 3D prints the prototypes, which undergo a process of trial and error to perfect them and bring her vision to life.
+          <span className="font-bold">Lamp Designs Experimentation:</span>
+          Carla is refining her lamp designs by modeling them in Blender. After finalizing the digital designs, she 3D prints prototypes, which undergo trial and error to perfect her vision.
           <br />
-          <span className="font-semibold">Production | Ongoing</span>
+          Production | Ongoing
           <br />
           <a
             href="https://www.figma.com/design/difwxiC2BMJ0U8363aXJlx/lamps?node-id=0-1&t=65UAWAJv7tOyGZEb-0"
@@ -161,9 +161,10 @@ const Table: React.FC = () => {
 
         {/* 3D Printing Prototypes Entry */}
         <div className="py-2 border-b">
-          3D Printing Prototypes - Current Phase: Plaster Mold Casting Clay Bodies.
+          <span className="font-bold">3D Printing Prototypes - Current Phase:</span>
+          Plaster Mold Casting Clay Bodies.
           <br />
-          <span className="font-semibold">Current Project</span>
+          Current Project
           <br />
           <a
             href="https://www.figma.com/design/iafqeEQblhzsAckznCLcZs/Untitled?node-id=0-1&t=xfXhmKeD6LflXF01-1"
@@ -176,22 +177,29 @@ const Table: React.FC = () => {
         </div>
 
         {/* FUTURE PROJECTS Section */}
-        <div className="border-b font-bold py-2 mt-4">
+        <div className="border-b-2 border-green-400 font-bold py-2 mt-4">
           <h2>FUTURE PROJECTS</h2>
         </div>
 
         {/* Future Project Entries */}
         <div className="py-2 border-b">
-          Creating tiles for the home.
+          <span className="font-bold">Writing a Python script</span>
+          <br />
+          to automate the mold-making process in Blender.
         </div>
         <div className="py-2 border-b">
-          Developing low- and mid-fire glazes from scratch.
+          <span className="font-bold">Creating tiles for the home.</span>
         </div>
         <div className="py-2 border-b">
-          Designing and sewing tropical clothing using AI-powered CLO3D CAD software for pattern making.
+          <span className="font-bold">Developing low- and mid-fire glazes from scratch.</span>
         </div>
         <div className="py-2 border-b">
-          Writing a Python script to automate the mold-making process in Blender.
+          <span className="font-bold">Finding wild clay and formulating a custom recipe for low-fire ceramics</span>
+        </div>
+        <div className="py-2 border-b">
+          <span className="font-bold">Designing and sewing tropical clothing</span>
+          <br />
+          using AI-powered CLO3D CAD software for pattern making.
         </div>
       </div>
     </div>

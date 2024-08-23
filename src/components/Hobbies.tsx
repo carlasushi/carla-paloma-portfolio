@@ -30,6 +30,7 @@ const Hobbies: React.FC = () => {
             <li>Playing with her cat | daily</li>
             <li>Spending time with her husband | daily</li>
             <li>Preparing her own meals | daily</li>
+            <li>Helping with the garden | daily</li> {/* New Entry */}
           </ul>
 
           {/* Spiritual */}
@@ -51,6 +52,7 @@ const Hobbies: React.FC = () => {
             <li>Reading books | daily</li>
             <li>Biology learning | frequent</li>
             <li>Computer learning | monthly</li>
+            <li>Maintaining Japanese language conversation through weekly sessions on Preply.com | weekly</li>
           </ul>
         </>
       ) : (
@@ -63,6 +65,7 @@ const Hobbies: React.FC = () => {
             <li>Playing with her cat</li>
             <li>Spending time with her husband</li>
             <li>Preparing her own meals</li>
+            <li>Helping with the garden</li> {/* New Entry */}
             <li>Reading books</li>
           </ul>
 
@@ -76,6 +79,7 @@ const Hobbies: React.FC = () => {
           <ul className="list-disc list-inside">
             <li>Ceramics</li>
             <li>Natto making</li>
+            <li>Maintaining Japanese language conversation through weekly sessions on Preply.com</li>
           </ul>
 
           <h3 className="font-semibold mt-4">Monthly</h3>

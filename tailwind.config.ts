@@ -1,6 +1,5 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+// tailwind.config.js
+const config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,11 +12,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-        fontFamily: {
-          mono: ['"IBM Plex Mono"', 'monospace'],
+      fontFamily: {
+        mono: ['"IBM Plex Mono"', 'monospace'],
+      },
+      animation: {
+        bounce: 'bounce 1s ease-in-out',
+      },
+      keyframes: {
+        bounce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
         },
+      },
     },
   },
   plugins: [],
 };
-export default config;
+
+module.exports = config;

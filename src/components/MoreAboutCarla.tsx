@@ -3,13 +3,13 @@
 import React, { useState } from 'react';
 import WorkExperience from './WorkExperience';
 import Languages from './Languages';
-import Certifications from './Certifications';
+import Education from './Education';
 import Hobbies from './Hobbies';
 
 const MoreAboutCarla: React.FC = () => {
   const [isWorkExperienceExpanded, setIsWorkExperienceExpanded] = useState(false);
   const [isLanguagesExpanded, setIsLanguagesExpanded] = useState(false);
-  const [isCertificationsExpanded, setIsCertificationsExpanded] = useState(false);
+  const [isEducationExpanded, setIsEducationExpanded] = useState(false); // Change from isCertificationsExpanded
   const [isHobbiesExpanded, setIsHobbiesExpanded] = useState(false);
 
   const toggleWorkExperienceExpand = () => {
@@ -20,8 +20,8 @@ const MoreAboutCarla: React.FC = () => {
     setIsLanguagesExpanded(!isLanguagesExpanded);
   };
 
-  const toggleCertificationsExpand = () => {
-    setIsCertificationsExpanded(!isCertificationsExpanded);
+  const toggleEducationExpand = () => { // Change from toggleCertificationsExpand
+    setIsEducationExpanded(!isEducationExpanded);
   };
 
   const toggleHobbiesExpand = () => {
@@ -59,14 +59,14 @@ const MoreAboutCarla: React.FC = () => {
           )}
         </div>
 
-        {/* Certifications Section */}
+        {/* Education Section */}
         <div className="mt-4">
-          <button onClick={toggleCertificationsExpand} className="text-blue-500 hover:underline">
-            {isCertificationsExpanded ? 'Hide Certifications' : 'Certifications'}
+          <button onClick={toggleEducationExpand} className="text-blue-500 hover:underline">
+            {isEducationExpanded ? 'Hide Education' : 'Education'}
           </button>
-          {isCertificationsExpanded && (
+          {isEducationExpanded && (
             <div className="mt-2">
-              <Certifications />
+              <Education />
             </div>
           )}
         </div>
