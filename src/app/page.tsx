@@ -3,7 +3,7 @@ import Image from "next/image";
 import Header from '../components/Header';
 import Bio from '../components/Bio';
 import Table from '../components/Table';
-
+import Footer from '../components/Footer';
 
 // src/app/page.tsx
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
       <Header />
       <Bio />
       <Table />
+      <Footer />
     </div>
   );
 }
