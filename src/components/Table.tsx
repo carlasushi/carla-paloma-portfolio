@@ -1,4 +1,4 @@
-// components/Table.tsx
+// src/components/Table.tsx
 "use client";
 
 import React, { useState } from 'react';
@@ -180,11 +180,18 @@ const Table: React.FC = () => {
           <h2>FUTURE PROJECTS</h2>
         </div>
 
-        {/* Future Project Entry */}
+        {/* Future Project Entries */}
         <div className="py-2 border-b">
-          Developing a Python script to automate the mold-making process in Blender.
-          <br />
-          {/* <span className="font-semibold">Future Development</span> */}
+          Creating tiles for the home.
+        </div>
+        <div className="py-2 border-b">
+          Developing low- and mid-fire glazes from scratch.
+        </div>
+        <div className="py-2 border-b">
+          Designing and sewing tropical clothing using AI-powered CLO3D CAD software for pattern making.
+        </div>
+        <div className="py-2 border-b">
+          Writing a Python script to automate the mold-making process in Blender.
         </div>
       </div>
     </div>
