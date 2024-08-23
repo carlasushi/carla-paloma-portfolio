@@ -31,11 +31,10 @@ const Bio: React.FC = () => {
 
   return (
     <div className="p-4 mb-4 border border-gray-300 rounded-lg bio-section"> {/* Added bio-section class */}
-      <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold mb-2">BIO</h2>
+      {/* <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold mb-2">BIO</h2> */}
       <div className="flex flex-col md:flex-row items-center mb-4">
         <p className="text-base md:text-xl lg:text-3xl mb-4 md:mb-0 md:mr-4 md:w-1/2">
-          Carla Paloma is a ceramicist from Buenos Aires, Argentina, now living in Kauai, Hawaii. She discovered her passion for pottery in Japan and has since founded Cosmic Order Ceramics and PAN STUDIO, where she creates ceramic prototypes using Blender. Carla shares her artistic vision with the local community by selling her work in shops and collaborating with other artists.
-        </p>
+        Carla Paloma is a ceramicist from Buenos Aires, Argentina, now living in Kauai, Hawaii. She discovered her passion for pottery in Japan and has since founded Cosmic Order Ceramics and PAN STUDIO. Carla works with both handbuilding techniques and the potter's wheel to craft her ceramic pieces. Additionally, she uses Blender, a 3D modeling and animation software, to create digital prototypes that are then 3D printed and cast into ceramic forms. Carla shares her artistic vision with the local community by selling her work in shops and collaborating with other artists.        </p>
         <div className="flex justify-center md:w-1/2">
           <Image
             src="/CP_profile.jpeg"
