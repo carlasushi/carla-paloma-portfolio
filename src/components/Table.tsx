@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import React, { useState } from 'react';
 
@@ -28,19 +28,19 @@ const Table: React.FC = () => {
     <div className="overflow-x-auto">
       <div className="p-4">
         {/* PAST PROJECTS Section */}
-        <div className="border-b-2 border-gray-400 font-bold py-2">
-          <h2>PAST PROJECTS</h2>
+        <div className="border-b-2 border-gray-400 font-semibold py-2">
+          <h2 className="text-base md:text-lg lg:text-xl">PAST PROJECTS</h2>
         </div>
 
         {/* N3 ART LAB Entry */}
         <div className="py-2 border-b">
-          <span className="font-bold">N3 ART LAB, Contemporary Art Gallery, Yamaguchi, Japan.</span>
+          <span className="font-semibold text-sm md:text-base">N3 ART LAB, Contemporary Art Gallery, Yamaguchi, Japan.</span>
           <br />
-          Curator and Program Manager | 2011 - 2013
+          <span className="text-xs md:text-sm">Curator and Program Manager | 2011 - 2013</span>
           <br />
           <button
             onClick={toggleEmbed1}
-            className="text-blue-500 hover:underline mt-2"
+            className="text-blue-500 hover:underline mt-1 text-xs md:text-sm"
           >
             {isEmbedded1 ? 'Hide' : 'More'}
           </button>
@@ -62,27 +62,27 @@ const Table: React.FC = () => {
         <div className="py-2 border-b">
           <ul>
             <li>
-              <span className="font-bold">Varda Artists Residency, Sausalito, California.</span>
+              <span className="font-semibold text-sm md:text-base">Varda Artists Residency, Sausalito, California.</span>
               <br />
-              Founder and Program Manager | 2013 - 2021
+              <span className="text-xs md:text-sm">Founder and Program Manager | 2013 - 2021</span>
               <br />
               <a
                 href="http://www.vardaartistsresidency.to/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:underline mt-2"
+                className="text-blue-500 hover:underline mt-1 text-xs md:text-sm"
               >
                 Visit the Varda Artists Residency external link website
               </a>
             </li>
             <li className="mt-4">
-              <span className="font-bold">Artsy Interview about the residency program.</span>
+              <span className="font-semibold text-sm md:text-base">Artsy Interview about the residency program.</span>
               <br />
               <a
                 href="https://www.artsy.net/article/artsy-editorial-houseboat-hosted-jack-kerouac-maya-angelou-artist-residency"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:underline mt-2"
+                className="text-blue-500 hover:underline mt-1 text-xs md:text-sm"
               >
                 Read the interview on Artsy
               </a>
@@ -92,13 +92,13 @@ const Table: React.FC = () => {
 
         {/* Cosmic Order Ceramics Entry */}
         <div className="py-2 border-b" id="cosmic-order-ceramics">
-          <span className="font-bold">Cosmic Order Ceramics, Sausalito, California.</span>
+          <span className="font-semibold text-sm md:text-base">Cosmic Order Ceramics, Sausalito, California.</span>
           <br />
-          Founder | 2020 - 2024
+          <span className="text-xs md:text-sm">Founder | 2020 - 2024</span>
           <br />
           <button
             onClick={toggleEmbed3}
-            className="text-blue-500 hover:underline mt-2"
+            className="text-blue-500 hover:underline mt-1 text-xs md:text-sm"
           >
             {isEmbedded3 ? 'Hide' : 'More'}
           </button>
@@ -117,19 +117,19 @@ const Table: React.FC = () => {
         )}
 
         {/* PRESENT PROJECTS Section */}
-        <div className="border-b-2 border-yellow-400 font-bold py-2 mt-4">
-          <h2>PRESENT PROJECTS</h2>
+        <div className="border-b-2 border-yellow-400 font-semibold py-2 mt-4">
+          <h2 className="text-base md:text-lg lg:text-xl">PRESENT PROJECTS</h2>
         </div>
 
         {/* Pan Studio Kauai Entry */}
         <div className="py-2 border-b" id="pan-studio">
-          <span className="font-bold">PAN STUDIO KAUAI</span>
+          <span className="font-semibold text-sm md:text-base">PAN STUDIO KAUAI</span>
           <br />
-          Founder | Ongoing
+          <span className="text-xs md:text-sm">Founder | Ongoing</span>
           <br />
           <button
             onClick={toggleEmbed4}
-            className="text-blue-500 hover:underline mt-2"
+            className="text-blue-500 hover:underline mt-1 text-xs md:text-sm"
           >
             {isEmbedded4 ? 'Hide' : 'More'}
           </button>
@@ -149,36 +149,35 @@ const Table: React.FC = () => {
 
         {/* Biographical Manga Entry */}
         <div className="py-2 border-b">
-          <span className="font-bold">Biographical Manga</span>
+          <span className="font-semibold text-sm md:text-base">Biographical Manga</span>
           <br />
-          Creating a biographical manga on Warpcast building Farcaster frames.
+          <span className="text-xs md:text-sm">Creating a biographical manga on Warpcast building Farcaster frames.</span>
           <br />
           <a
             href="https://warpcast.com/carlapaloma"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline mt-2"
+            className="text-blue-500 hover:underline mt-1 text-xs md:text-sm"
           >
             View the Warpcast profile
           </a>
           <br />
-          Coding with Pinata Frame Development Kit (FDK) + Farcaster | Ongoing
-          <br />
+          <span className="text-xs md:text-sm">Coding with Pinata Frame Development Kit (FDK) + Farcaster | Ongoing</span>
         </div>
 
         {/* Lamp Design Entry */}
         <div className="py-2 border-b">
-          <span className="font-bold">Lamp Designs Experimentation</span>
+          <span className="font-semibold text-sm md:text-base">Lamp Designs Experimentation</span>
           <br />
-          Refining lamp designs by modeling in Blender. After finalizing the digital designs, 3D printing prototypes undergo trial and error to perfect the vision.
+          <span className="text-xs md:text-sm">Refining lamp designs by modeling in Blender. After finalizing the digital designs, 3D printing prototypes undergo trial and error to perfect the vision.</span>
           <br />
-          Production | Ongoing
+          <span className="text-xs md:text-sm">Production | Ongoing</span>
           <br />
           <a
             href="https://www.figma.com/design/difwxiC2BMJ0U8363aXJlx/lamps?node-id=0-1&t=65UAWAJv7tOyGZEb-0"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline mt-2"
+            className="text-blue-500 hover:underline mt-1 text-xs md:text-sm"
           >
             View Lamp Evolving Designs on Figma.
           </a>
@@ -186,46 +185,46 @@ const Table: React.FC = () => {
 
         {/* 3D Printing Prototypes Entry */}
         <div className="py-2 border-b">
-          <span className="font-bold">3D Printing Prototypes</span>
+          <span className="font-semibold text-sm md:text-base">3D Printing Prototypes</span>
           <br />
-          Plaster mold casting clay bodies.
+          <span className="text-xs md:text-sm">Plaster mold casting clay bodies.</span>
           <br />
-          Production | Ongoing
+          <span className="text-xs md:text-sm">Production | Ongoing</span>
           <br />
           <a
             href="https://www.figma.com/design/iafqeEQblhzsAckznCLcZs/Untitled?node-id=0-1&t=xfXhmKeD6LflXF01-1"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline mt-2"
+            className="text-blue-500 hover:underline mt-1 text-xs md:text-sm"
           >
             View GCODE screenshots of prototypes on Figma.
           </a>
         </div>
 
         {/* FUTURE PROJECTS Section */}
-        <div className="border-b-2 border-green-400 font-bold py-2 mt-4">
-          <h2>FUTURE PROJECTS</h2>
+        <div className="border-b-2 border-green-400 font-semibold py-2 mt-4">
+          <h2 className="text-base md:text-lg lg:text-xl">FUTURE PROJECTS</h2>
         </div>
 
         {/* Future Project Entries */}
         <div className="py-2 border-b">
-          <span className="font-bold">Writing a Python script</span>
+          <span className="font-semibold text-sm md:text-base">Writing a Python script</span>
           <br />
-          to automate the mold-making process in Blender.
+          <span className="text-xs md:text-sm">to automate the mold-making process in Blender.</span>
         </div>
         <div className="py-2 border-b">
-          <span className="font-bold">Creating tiles for the home.</span>
+          <span className="font-semibold text-sm md:text-base">Creating tiles for the home.</span>
         </div>
         <div className="py-2 border-b">
-          <span className="font-bold">Developing low- and mid-fire glazes from scratch.</span>
+          <span className="font-semibold text-sm md:text-base">Developing low- and mid-fire glazes from scratch.</span>
         </div>
         <div className="py-2 border-b">
-          <span className="font-bold">Finding wild clay and formulating a custom recipe for low-fire ceramics.</span>
+          <span className="font-semibold text-sm md:text-base">Finding wild clay and formulating a custom recipe for low-fire ceramics.</span>
         </div>
         <div className="py-2 border-b">
-          <span className="font-bold">Designing and sewing tropical clothing</span>
+          <span className="font-semibold text-sm md:text-base">Designing and sewing tropical clothing</span>
           <br />
-          using AI-powered CLO3D CAD software for pattern making.
+          <span className="text-xs md:text-sm">using AI-powered CLO3D CAD software for pattern making.</span>
         </div>
       </div>
     </div>
