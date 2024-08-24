@@ -9,7 +9,7 @@ import Hobbies from './Hobbies';
 const MoreAboutCarla: React.FC = () => {
   const [isWorkExperienceExpanded, setIsWorkExperienceExpanded] = useState(false);
   const [isLanguagesExpanded, setIsLanguagesExpanded] = useState(false);
-  const [isEducationExpanded, setIsEducationExpanded] = useState(false); // Change from isCertificationsExpanded
+  const [isEducationExpanded, setIsEducationExpanded] = useState(false);
   const [isHobbiesExpanded, setIsHobbiesExpanded] = useState(false);
 
   const toggleWorkExperienceExpand = () => {
@@ -20,7 +20,7 @@ const MoreAboutCarla: React.FC = () => {
     setIsLanguagesExpanded(!isLanguagesExpanded);
   };
 
-  const toggleEducationExpand = () => { // Change from toggleCertificationsExpand
+  const toggleEducationExpand = () => {
     setIsEducationExpanded(!isEducationExpanded);
   };
 
@@ -34,7 +34,13 @@ const MoreAboutCarla: React.FC = () => {
         <h2>MORE ABOUT CARLA</h2>
       </div>
 
-      <div className="mt-4"> {/* Add margin-top */}
+      <div className="mt-4">
+        {/* Personal Statement */}
+        <div className="mt-4">
+          <p>
+          Carla lives a life free from alcohol, substances, tobacco, sugar, gluten, fluoride, and social media, but she does not oppose these choices for others.          </p>
+        </div>
+
         {/* Work Experience Section */}
         <div className="mt-4">
           <button onClick={toggleWorkExperienceExpand} className="text-blue-500 hover:underline">
