@@ -27,10 +27,8 @@ const Hobbies: React.FC = () => {
           <ul className="list-disc list-inside">
             <li>Ocean swimming | daily</li>
             <li>Riding bike | daily</li>
-            <li>Playing with her cat | daily</li>
-            <li>Spending time with her husband | daily</li>
+            <li>Spending time with her husband + cat | daily</li>
             <li>Preparing her own meals | daily</li>
-            <li>Helping with the garden | daily</li> {/* New Entry */}
           </ul>
 
           {/* Spiritual */}
@@ -62,10 +60,8 @@ const Hobbies: React.FC = () => {
           <ul className="list-disc list-inside">
             <li>Ocean swimming</li>
             <li>Riding bike</li>
-            <li>Playing with her cat</li>
-            <li>Spending time with her husband</li>
+            <li>Spending time with her husband + cat</li>
             <li>Preparing her own meals</li>
-            <li>Helping with the garden</li> {/* New Entry */}
             <li>Reading books</li>
           </ul>
 
