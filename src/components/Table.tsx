@@ -1,4 +1,3 @@
-// src/components/Table.tsx
 "use client";
 
 import React, { useState } from 'react';
@@ -77,7 +76,7 @@ const Table: React.FC = () => {
               </a>
             </li>
             <li className="mt-4">
-              <span className="font-bold">Artsy Interview with Carla about the residency program.</span>
+              <span className="font-bold">Artsy Interview about the residency program.</span>
               <br />
               <a
                 href="https://www.artsy.net/article/artsy-editorial-houseboat-hosted-jack-kerouac-maya-angelou-artist-residency"
@@ -150,9 +149,9 @@ const Table: React.FC = () => {
 
         {/* Biographical Manga Entry */}
         <div className="py-2 border-b">
-          <span className="font-bold">Biographical Manga:</span>
+          <span className="font-bold">Biographical Manga</span>
           <br />
-          Carla is creating a biographical manga on Warpcast building Farcaster frames.
+          Creating a biographical manga on Warpcast building Farcaster frames.
           <br />
           <a
             href="https://warpcast.com/carlapaloma"
@@ -160,7 +159,7 @@ const Table: React.FC = () => {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline mt-2"
           >
-            View Carla's Warpcast profile
+            View the Warpcast profile
           </a>
           <br />
           Coding with Pinata Frame Development Kit (FDK) + Farcaster | Ongoing
@@ -169,9 +168,9 @@ const Table: React.FC = () => {
 
         {/* Lamp Design Entry */}
         <div className="py-2 border-b">
-          <span className="font-bold">Lamp Designs Experimentation:</span>
+          <span className="font-bold">Lamp Designs Experimentation</span>
           <br />
-          Carla is refining her lamp designs by modeling them in Blender. After finalizing the digital designs, she 3D prints prototypes, which undergo trial and error to perfect her vision.
+          Refining lamp designs by modeling in Blender. After finalizing the digital designs, 3D printing prototypes undergo trial and error to perfect the vision.
           <br />
           Production | Ongoing
           <br />
@@ -187,11 +186,11 @@ const Table: React.FC = () => {
 
         {/* 3D Printing Prototypes Entry */}
         <div className="py-2 border-b">
-          <span className="font-bold">3D Printing Prototypes - Current Phase:</span>
+          <span className="font-bold">3D Printing Prototypes</span>
           <br />
-          Plaster Mold Casting Clay Bodies.
+          Plaster mold casting clay bodies.
           <br />
-          Production Stage | Ongoing
+          Production | Ongoing
           <br />
           <a
             href="https://www.figma.com/design/iafqeEQblhzsAckznCLcZs/Untitled?node-id=0-1&t=xfXhmKeD6LflXF01-1"
@@ -199,7 +198,7 @@ const Table: React.FC = () => {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline mt-2"
           >
-            View 3D printing prototypes of ceramic pieces on Figma.
+            View GCODE screenshots of prototypes on Figma.
           </a>
         </div>
 
@@ -221,7 +220,7 @@ const Table: React.FC = () => {
           <span className="font-bold">Developing low- and mid-fire glazes from scratch.</span>
         </div>
         <div className="py-2 border-b">
-          <span className="font-bold">Finding wild clay and formulating a custom recipe for low-fire ceramics</span>
+          <span className="font-bold">Finding wild clay and formulating a custom recipe for low-fire ceramics.</span>
         </div>
         <div className="py-2 border-b">
           <span className="font-bold">Designing and sewing tropical clothing</span>

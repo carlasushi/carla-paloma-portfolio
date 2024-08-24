@@ -30,41 +30,36 @@ iframe {
   height: auto; /* Allow the height to adjust if needed */
 }
 
-/* src/styles/globals.css or a specific CSS file */
+/* Image Hover Effect */
 .image-hover-effect {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Add filter transition */
+  filter: grayscale(100%); /* Make the image black and white by default */
 }
 
 .image-hover-effect:hover {
   transform: scale(1.05); /* Scale up the image */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+  filter: grayscale(0%); /* Remove grayscale on hover */
 }
 
+/* marquee section  */
+.overflow-hidden {
+  overflow: hidden;
+  white-space: nowrap; /* Prevent text wrapping */
+  max-width: 100%; /* Adjust the width of the horizontal area */
+}
 
-/* src/styles/globals.css or a specific CSS file */
-.tooltip {
-  position: relative;
+.animate-marquee {
   display: inline-block;
+  padding-left: 100%; /* Start from outside the right */
+  animation: marquee 20s linear infinite; /* Adjust duration as needed */
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #262626;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%; /* Position above the button */
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0); /* Move to the left */
+  }
 }

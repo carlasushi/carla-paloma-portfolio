@@ -11,7 +11,7 @@ const Hobbies: React.FC = () => {
   };
 
   return (
-    <div className="bg-white border border-gray-300 p-4 rounded-lg mb-4">
+    <div className="bg-white border border-gray-300 p-4 mb-4">
       <h2 className="font-bold text-xl mb-2">Hobbies</h2>
       <button
         onClick={toggleView}
@@ -50,8 +50,8 @@ const Hobbies: React.FC = () => {
           <h3 className="font-semibold mt-4">Learning</h3>
           <ul className="list-disc list-inside">
             <li>Reading books | daily</li>
-            <li>Biology learning | frequent</li>
-            <li>Computer learning | monthly</li>
+            <li>Exploring the intersections of biology, politics, and holistic health | frequent</li>
+            <li>learning new technologies  | often</li>
             <li>Maintaining Japanese language conversation through weekly sessions on Preply.com | weekly</li>
           </ul>
         </>
@@ -72,7 +72,7 @@ const Hobbies: React.FC = () => {
           <h3 className="font-semibold mt-4">Frequent</h3>
           <ul className="list-disc list-inside">
             <li>Meditation</li>
-            <li>Biology learning</li>
+            <li>Exploring the intersections of biology, politics, and holistic health</li>
           </ul>
 
           <h3 className="font-semibold mt-4">Weekly</h3>
@@ -82,9 +82,9 @@ const Hobbies: React.FC = () => {
             <li>Maintaining Japanese language conversation through weekly sessions on Preply.com</li>
           </ul>
 
-          <h3 className="font-semibold mt-4">Monthly</h3>
+          <h3 className="font-semibold mt-4">Often</h3>
           <ul className="list-disc list-inside">
-            <li>Computer learning</li>
+            <li>Learning new technologies </li>
           </ul>
         </>
       )}

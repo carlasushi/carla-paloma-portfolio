@@ -5,7 +5,7 @@ import React from 'react';
 
 const WorkExperience: React.FC = () => {
   return (
-    <div className="bg-white border border-gray-300 p-4 rounded-lg">
+    <div className="bg-white border border-gray-300 p-4">
       <h2 className="font-bold text-xl mb-4">Work Experience</h2>
       <div className="mb-2">
         <h3 className="font-semibold">Pan Studio, Kauai, Hawaii</h3>

@@ -1,4 +1,3 @@
-// src/components/MoreAboutCarla.tsx
 'use client';
 import React, { useState } from 'react';
 import WorkExperience from './WorkExperience';
@@ -35,10 +34,11 @@ const MoreAboutCarla: React.FC = () => {
       </div>
 
       <div className="mt-4">
-        {/* Personal Statement */}
-        <div className="mt-4">
-          <p>
-          Carla lives a life free from alcohol, substances, tobacco, sugar, gluten, fluoride, and social media, but she does not oppose these choices for others.          </p>
+        {/* Moving Banner */}
+        <div className="overflow-hidden whitespace-nowrap">
+          <p className="inline-block animate-marquee uppercase">
+            Carla lives a life free from alcohol, substances, tobacco, sugar, gluten, fluoride, and social media, but she does not oppose these choices for others.
+          </p>
         </div>
 
         {/* Work Experience Section */}
