@@ -10,7 +10,7 @@ const Bio: React.FC = () => {
           Carla is a ceramicist from Buenos Aires, Argentina, currently residing in Kauai, Hawaii.
         </p>
         <p className="text-sm md:text-base lg:text-lg mb-4 md:mb-0 md:mr-4 md:w-1/2">
-          She specializes in wheel-throwing and handbuilding techniques. Uses Blender, a 3D modeling software, to create digital prototypes that are 3D printed and transformed into unique ceramic pieces.
+        She focuses on wheel-throwing and handbuilding techniques, as well as using Blender, a 3D modeling software, to create digital prototypes that are slip cast and transformed into unique ceramic pieces.
         </p>
         <div className="flex justify-center md:w-1/2">
           <Image
