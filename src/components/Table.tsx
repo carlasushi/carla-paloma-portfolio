@@ -59,31 +59,37 @@ const Table: React.FC = () => {
           </div>
         )}
 
-        {/* Varda Artists Residency Entry */}
+        {/* Varda Artists Residency and Interview Entry */}
         <div className="py-2 border-b">
-          <span className="font-bold">Varda Artists Residency, Sausalito, California.</span>
-          <br />
-          Founder and Program Manager | 2013 - 2021
-          <br />
-          <button
-            onClick={toggleEmbed2}
-            className="text-blue-500 hover:underline mt-2"
-          >
-            {isEmbedded2 ? 'Hide' : 'More'}
-          </button>
+          <ul>
+            <li>
+              <span className="font-bold">Varda Artists Residency, Sausalito, California.</span>
+              <br />
+              Founder and Program Manager | 2013 - 2021
+              <br />
+              <a
+                href="http://www.vardaartistsresidency.to/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline mt-2"
+              >
+                Visit the Varda Artists Residency external link website
+              </a>
+            </li>
+            <li className="mt-4">
+              <span className="font-bold">Artsy Interview with Carla about the residency program.</span>
+              <br />
+              <a
+                href="https://www.artsy.net/article/artsy-editorial-houseboat-hosted-jack-kerouac-maya-angelou-artist-residency"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline mt-2"
+              >
+                Read the interview on Artsy
+              </a>
+            </li>
+          </ul>
         </div>
-
-        {isEmbedded2 && (
-          <div className="mt-2">
-            <iframe
-              src="http://www.vardaartistsresidency.to/"
-              width="100%"
-              height="800"
-              title="Varda Artists Residency"
-              className="border border-gray-300 rounded-lg"
-            />
-          </div>
-        )}
 
         {/* Cosmic Order Ceramics Entry */}
         <div className="py-2 border-b" id="cosmic-order-ceramics">
@@ -145,6 +151,7 @@ const Table: React.FC = () => {
         {/* Lamp Design Entry */}
         <div className="py-2 border-b">
           <span className="font-bold">Lamp Designs Experimentation:</span>
+          <br />
           Carla is refining her lamp designs by modeling them in Blender. After finalizing the digital designs, she 3D prints prototypes, which undergo trial and error to perfect her vision.
           <br />
           Production | Ongoing
@@ -162,9 +169,10 @@ const Table: React.FC = () => {
         {/* 3D Printing Prototypes Entry */}
         <div className="py-2 border-b">
           <span className="font-bold">3D Printing Prototypes - Current Phase:</span>
+          <br />
           Plaster Mold Casting Clay Bodies.
           <br />
-          Current Project
+            Production Stage | Ongoing
           <br />
           <a
             href="https://www.figma.com/design/iafqeEQblhzsAckznCLcZs/Untitled?node-id=0-1&t=xfXhmKeD6LflXF01-1"
