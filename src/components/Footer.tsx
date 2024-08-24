@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <p className="text-gray-700">&copy; {currentYear} Carla Paloma</p>
         <div>
           <a
-            href="https://github.com/carlapaloma"
+            href="https://github.com/carlasushi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 mr-4"
