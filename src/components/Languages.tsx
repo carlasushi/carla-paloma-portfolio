@@ -10,7 +10,7 @@ const Languages: React.FC = () => {
       <ul className="list-disc list-inside">
         <li>Spanish (native)</li>
         <li>English (fluent)</li>
-        <li>Japanese (N3 level) | conversational</li>
+        <li>Japanese (N3 conversational)</li>
       </ul>
     </div>
   );
