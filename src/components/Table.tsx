@@ -148,6 +148,25 @@ const Table: React.FC = () => {
           </div>
         )}
 
+        {/* Biographical Manga Entry */}
+        <div className="py-2 border-b">
+          <span className="font-bold">Biographical Manga:</span>
+          <br />
+          Carla is creating a biographical manga on Warpcast building Farcaster frames.
+          <br />
+          <a
+            href="https://warpcast.com/carlapaloma"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline mt-2"
+          >
+            View Carla's Warpcast profile
+          </a>
+          <br />
+          Coding with Pinata Frame Development Kit (FDK) + Farcaster | Ongoing
+          <br />
+        </div>
+
         {/* Lamp Design Entry */}
         <div className="py-2 border-b">
           <span className="font-bold">Lamp Designs Experimentation:</span>
@@ -172,7 +191,7 @@ const Table: React.FC = () => {
           <br />
           Plaster Mold Casting Clay Bodies.
           <br />
-            Production Stage | Ongoing
+          Production Stage | Ongoing
           <br />
           <a
             href="https://www.figma.com/design/iafqeEQblhzsAckznCLcZs/Untitled?node-id=0-1&t=xfXhmKeD6LflXF01-1"
