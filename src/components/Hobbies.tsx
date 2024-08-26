@@ -29,6 +29,7 @@ const Hobbies: React.FC = () => {
             <li>Riding bike | daily</li>
             <li>Spending time with her husband + cat | daily</li>
             <li>Preparing her own meals | daily</li>
+            <li>Natto making | weekly</li>
           </ul>
 
           {/* Spiritual */}
@@ -41,7 +42,6 @@ const Hobbies: React.FC = () => {
           <h3 className="font-semibold mt-4">Creative</h3>
           <ul className="list-disc list-inside">
             <li>Ceramics | weekly</li>
-            <li>Natto making | weekly</li>
           </ul>
 
           {/* Learning */}
