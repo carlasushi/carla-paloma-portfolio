@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Carla Paloma - Contemporary Ceramics Artist",
     description: "Explore the unique ceramic art of Carla Paloma, featuring contemporary designs, intricate textures, and bold colors.",
-    url: "https://your-portfolio-url.com",
+    url: "https://carla-paloma-portfolio.vercel.app/",
     siteName: "Carla Paloma Ceramics",
     images: [
       {
