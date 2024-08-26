@@ -5,8 +5,11 @@ const SculpturesMarquee: React.FC = () => {
   const sculptures = [
     'edamame bear.jpg',
     'greedy bear.jpg',
-    'stellar raccon vase 1.jpg',
-    'vanilla cat.jpg'
+    'stellar raccoon vase .jpg',
+    'vanilla cat.jpg',
+    'owl.jpg',
+    'toxic toad candle holder.jpg',
+    'hamster.jpg',
   ];
 
   return (
