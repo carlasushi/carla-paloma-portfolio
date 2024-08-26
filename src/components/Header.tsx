@@ -1,12 +1,15 @@
 // src/components/Header.tsx
-import Image from 'next/image';
+import React from 'react';
+import SculpturesMarquee from './SculpturesMarquee';
 
 const Header: React.FC = () => {
   return (
-    <header className="py-10">
-      <h1 className="text-4xl font-bold text-left">Carla Paloma</h1> {/* Aligned to the left */}
-      <div className="mt-4"></div>
-      {/* Removed the "Contemporary Ceramic Artist" text */}
+    <header>
+      <SculpturesMarquee />
+      <div className="py-10">
+        <h1 className="text-4xl font-bold text-left">Carla Paloma</h1>
+        <div className="mt-4"></div>
+      </div>
     </header>
   );
 };
