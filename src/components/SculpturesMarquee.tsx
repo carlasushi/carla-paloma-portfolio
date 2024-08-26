@@ -4,9 +4,9 @@ import Image from 'next/image';
 const SculpturesMarquee: React.FC = () => {
   const sculptures = [
     'edamame bear.jpg',
-    'vanilla cat.jpg',
     'greedy bear.jpg',
     'stellar raccon vase 1.jpg',
+    'vanilla cat.jpg'
   ];
 
   return (
@@ -19,7 +19,7 @@ const SculpturesMarquee: React.FC = () => {
             alt={sculpture.replace('.jpg', '')}
             width={50}
             height={50}
-            className="inline-block mx-8"
+            className="inline-block mx-5 lg:mx-10 w-12 md:w-20 lg:w-28 h-auto object-contain"
           />
         ))}
       </div>
@@ -31,7 +31,7 @@ const SculpturesMarquee: React.FC = () => {
             alt={sculpture.replace('.jpg', '')}
             width={50}
             height={50}
-            className="inline-block mx-8"
+            className="inline-block mx-5 lg:mx-10 w-12 md:w-20 lg:w-28 h-auto object-contain"
           />
         ))}
       </div>
