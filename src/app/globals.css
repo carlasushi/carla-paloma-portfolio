@@ -44,8 +44,8 @@ iframe {
 
 /* marquee section  */
 .overflow-hidden {
-  overflow: clip;
-  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden;
+
   max-width: 100%; /* Adjust the width of the horizontal area */
 }
 
