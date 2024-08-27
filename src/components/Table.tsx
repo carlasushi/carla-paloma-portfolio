@@ -270,6 +270,11 @@ const Table: React.FC = () => {
             <br />
             <span className="text-xs md:text-sm">using AI-powered CLO3D CAD software for pattern making.</span>
           </div>
+          <div className="py-2 border-b">
+            <span className="font-semibold text-sm md:text-base">Turning Sculptures into NFTs</span>
+            <br />
+            <span className="text-xs md:text-sm">Exploring blockchain-based platforms for artists to monetize their three-dimensional works.</span>
+          </div>
         </div>
       </div>
     </div>
