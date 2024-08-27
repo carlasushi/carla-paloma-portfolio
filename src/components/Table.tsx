@@ -176,9 +176,7 @@ const Table: React.FC = () => {
 
           {/* Biographical Manga Entry */}
           <div className="py-2 border-b">
-            <span className="font-semibold text-sm md:text-base">Biographical Manga</span>
-            <br />
-            <span className="text-xs md:text-sm">Creating a biographical manga on Warpcast building Farcaster frames.</span>
+            <span className="font-semibold text-sm md:text-base">Auto biographical Manga</span>
             <br />
             <a
               href="https://warpcast.com/carlapaloma"
@@ -189,14 +187,17 @@ const Table: React.FC = () => {
               View the Warpcast profile
             </a>
             <br />
-            <span className="text-xs md:text-sm">Coding with Pinata Frame Development Kit (FDK) + Farcaster | Ongoing</span>
+            <span className="text-xs md:text-sm">Pinata Frame Development Kit (FDK) + Farcaster</span>
+            <br />
+            <span className="text-xs md:text-sm">Production | Ongoing</span>
+            <br />
           </div>
 
           {/* Lamp Design Entry */}
           <div className="py-2 border-b">
             <span className="font-semibold text-sm md:text-base">Lamp Designs Experimentation</span>
             <br />
-            <span className="text-xs md:text-sm">Refining lamp designs by modeling in Blender. After finalizing the digital designs, 3D printing prototypes undergo trial and error to perfect the vision.</span>
+            <span className="text-xs md:text-sm">Refining lamp designs by modeling in Blender.</span>
             <br />
             <span className="text-xs md:text-sm">Production | Ongoing</span>
             <br />
