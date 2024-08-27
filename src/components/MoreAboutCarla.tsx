@@ -36,8 +36,9 @@ const MoreAboutCarla: React.FC = () => {
       <div className="mt-4">
         {/* Moving Banner */}
         <div className="overflow-hidden whitespace-nowrap">
+        Carla lives a life free from alcohol, substances, tobacco, sugar, gluten, fluoride, and social media, but she does not oppose these choices for others.
+
           <p className="inline-block animate-marquee uppercase">
-            Carla lives a life free from alcohol, substances, tobacco, sugar, gluten, fluoride, and social media, but she does not oppose these choices for others.
           </p>
         </div>
 
