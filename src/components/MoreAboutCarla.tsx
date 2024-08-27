@@ -28,19 +28,12 @@ const MoreAboutCarla: React.FC = () => {
   };
 
   return (
-    <div className="p-4 my-4">
-      <div className="border-b font-bold py-2">
+    <div className="p-4 my-2">
+      <div className="border-b font-bold pb-1">
         <h2>MORE ABOUT CARLA</h2>
       </div>
 
-      <div className="mt-4">
-        {/* Moving Banner */}
-        <div className="overflow-hidden whitespace-nowrap">
-          <p className="inline-block animate-marquee uppercase">
-            {/* Carla lives a life free from alcohol, substances, tobacco, sugar, gluten, fluoride, and social media, but she does not oppose these choices for others. */}
-          </p>
-        </div>
-
+      <div className="">
         {/* Work Experience Section */}
         <div className="mt-4">
           <button onClick={toggleWorkExperienceExpand} className="text-blue-500 hover:underline">
